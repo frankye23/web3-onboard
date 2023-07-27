@@ -125,7 +125,7 @@
       const existingWallet = state
         .get()
         .wallets.find(wallet => wallet.label === label)
-
+      console.log(123, existingWallet)
       if (existingWallet) {
         // set as first wallet
         addWallet(existingWallet)
@@ -161,6 +161,7 @@
       // change step on next event loop
       setTimeout(() => setStep('connectingWallet'), 1)
     } catch (error) {
+      console.log(123123123123123)
       const { message } = error as { message: string }
       connectingErrorMessage = message
       connectingWalletLabel = ''
