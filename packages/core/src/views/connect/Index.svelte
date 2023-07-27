@@ -165,6 +165,7 @@
       connectingErrorMessage = message
       connectingWalletLabel = ''
       scrollToTop()
+      console.log(error)
     }
   }
 
