@@ -120,7 +120,7 @@
     getInterface
   }: WalletWithLoadingIcon): Promise<void> {
     connectingWalletLabel = label
-
+    
     try {
       const existingWallet = state
         .get()

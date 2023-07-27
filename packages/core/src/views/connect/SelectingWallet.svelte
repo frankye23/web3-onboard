@@ -72,6 +72,7 @@
   {#if connectingErrorMessage}
     <div class="warning-container">
       <Warning>{@html connectingErrorMessage}</Warning>
+      <div>Please refresh</div>
     </div>
   {/if}
 
