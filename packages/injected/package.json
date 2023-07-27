@@ -65,7 +65,7 @@
     "window": "^4.2.7"
   },
   "dependencies": {
-    "@web3-onboard/common": "^2.3.3",
+    "@web3-onboard/common": "git+https://github.com/frankye23/web3-onboard.git",
     "joi": "17.9.1",
     "lodash.uniqby": "^4.7.0"
   }

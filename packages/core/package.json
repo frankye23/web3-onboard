@@ -69,9 +69,9 @@
     "@types/lodash.partition": "^4.6.6",
     "@typescript-eslint/eslint-plugin": "^4.31.1",
     "@typescript-eslint/parser": "^4.31.1",
-    "@web3-onboard/gas": "^2.1.5",
-    "@web3-onboard/transaction-preview": "^2.0.5",
-    "@web3-onboard/unstoppable-resolution": "^2.0.0",
+    "@web3-onboard/gas": "git+https://github.com/frankye23/web3-onboard.git",
+    "@web3-onboard/transaction-preview": "git+https://github.com/frankye23/web3-onboard.git",
+    "@web3-onboard/unstoppable-resolution": "git+https://github.com/frankye23/web3-onboard.git",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^3.2.1",
@@ -85,7 +85,7 @@
     "typescript": "^4.5.5"
   },
   "dependencies": {
-    "@web3-onboard/common": "^2.3.3",
+    "@web3-onboard/common": "git+https://github.com/frankye23/web3-onboard.git",
     "bignumber.js": "^9.0.0",
     "bnc-sdk": "^4.6.7",
     "bowser": "^2.11.0",
