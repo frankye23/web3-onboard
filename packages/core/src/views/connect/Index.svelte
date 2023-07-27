@@ -165,7 +165,13 @@
       connectingErrorMessage = message
       connectingWalletLabel = ''
       scrollToTop()
+
+      alert(JSON.stringify(error))
       console.log(error)
+      if (message.includes('Failed to fetch')) {
+        alert('Cannot load modules, please refresh.')
+        window.location.reload()
+      }
     }
   }
 
